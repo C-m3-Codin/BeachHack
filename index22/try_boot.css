@@ -1,0 +1,67 @@
+.parallax {
+    /* The image used */
+    background-image: url("bir.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .asd {
+    /* The image used */
+    background-image: url("bir.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+
+
+  
+  .parallax_bg {
+    background: url(assets/img/corinne-kutz-211251.jpg);
+    background-size: cover;
+    height: 100%;
+    min-height: 100%;
+    overflow: auto;
+  }
+  
+  .parallax {
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .parallax_text > p {
+    font-size: 20px;
+  }
+  
+  .parallax_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+  }
+  
+  
+
+
+  
+  .full-width {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    width: calc(100vw - 0px);
+    margin-left: calc(-50vw - 2px);
+    left: 50%;
+   }
